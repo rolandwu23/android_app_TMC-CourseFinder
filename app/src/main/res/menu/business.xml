@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:title="B.A(Hons) Business and Management"
+            android:id="@+id/business_business"/>
+        <item
+            android:title="B.A(Hons) Marketing Management"
+            android:id="@+id/business_marketing"/>
+    </group>
+</menu>

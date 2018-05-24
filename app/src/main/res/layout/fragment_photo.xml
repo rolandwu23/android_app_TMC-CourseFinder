@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.assign_4.Photo">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basic Digital Photography"
+                android:textSize="25sp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course Modules"
+                android:textSize="25sp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Camera\n
+Exposure Triangle\n
+Hyperfocal value\n
+Depth of Field\n
+Composition\n
+Taking a portrait\n
+Editing workflow"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course Fees"
+                android:textSize="25sp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Application Fee: $50\n
+\nCourse Fee :$120 (exclusive of GST)\n
+
+SSG (Company sponsored only) Funding Amount (valid till 14 Dec 2017): $14\n
+Non-Company sponsored applicants can utilize their SkillsFuture Credit* to claim the course fees.\n
+
+
+All fees indicated are in Singapore Dollars (SGD)"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

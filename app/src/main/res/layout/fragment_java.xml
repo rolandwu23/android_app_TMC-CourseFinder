@@ -1,0 +1,103 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.assign_4.Java">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Application Programming with Java"
+                android:textSize="25sp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course Modules"
+                android:textSize="25sp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Software development methodologies\n
+Systems Development Life Cycle and Structured Modelling Techniques\n
+Requirements gathering activities in application design\n
+Design IT applications using UML Class diagrams\n
+Creating and refining the IT application design using Use Case Diagram\n
+Develop IT source codes and programs using Java Abstract data structure\n
+Develop IT source codes and programs using Java IO and exception handling\n
+Designing applications with Swing and develop test plans and test procedures for IT applications\n
+Designing applications with Swing Event handling and develop test plans and test procedures for IT applications\n
+Deploy IT applications to ensure successful database deployments\n
+Deploy IT applications to ensure successful Graphics and Animation deployments"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entry Requirements"
+                android:textSize="25sp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="There is no prior programming knowledge required for this course.
+
+"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course Fees"
+                android:textSize="25sp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Application Fee: $50 \n
+
+
+
+\nCourse Fee :$495 (exclusive of GST)\n
+
+\nSSG (Company sponsored only) Funding Amount (valid till 2 Oct 2017): $60\n
+Non-Company sponsored applicants can utilize their SkillsFuture Credit* to claim the course fees.\n
+$500 SkillsFuture Credits applicable to cover course fees. Visit myskillsfuture.sg for details or submit a course enquiry to reach us.\n
+
+
+
+All fees indicated are in Singapore Dollars (SGD)"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

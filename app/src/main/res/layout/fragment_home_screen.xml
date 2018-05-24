@@ -1,0 +1,108 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.assign_4.home_screen">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageview"
+                android:src="@drawable/screen_12"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#87CEEB"
+                android:layout_below="@+id/imageview"
+                android:text="About"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:id="@+id/textview1"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview2"
+                android:layout_below="@+id/textview1"
+                android:text="                  As an academic establishment since 1981, TMC Academy is fully committed to our service policy that consistently thrives on providing quality and value-added educational courses and services to local and international students alike.TMC Academy is fully committed towards the education process of all our students and in doing so we strive to achieve the highest quality standard in all aspects of our operations."
+                android:textSize="18sp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview3"
+                android:layout_below="@+id/textview2"
+                android:background="#87CEEB"
+                android:text="Vision"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview4"
+                android:layout_below="@+id/textview3"
+                android:text="                  The leading academy that develops successful and high performance graduates."
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview5"
+                android:layout_below="@+id/textview4"
+                android:background="#87CEEB"
+                android:text="Mission"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview6"
+                android:layout_below="@+id/textview5"
+                android:text="                  We commit to delivering high quality courses with industry relevant skills and knowledge in a nurturing environment."
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview7"
+                android:layout_below="@+id/textview6"
+                android:background="#87CEEB"
+                android:text="CORE VALUES"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview8"
+                android:layout_below="@+id/textview7"
+                android:text="                  Our mission is supported by four core values outlined in PACE which illustrates our internal beliefs of:"
+                android:textSize="18sp"
+                />
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

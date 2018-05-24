@@ -1,0 +1,107 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.assign_4.account_diploma">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Professional Diploma in Accounting and Finance"
+                android:textSize="25sp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course Modules"
+                android:textSize="25sp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Introduction to Management Accounting\n
+Statistical Techniques for Business\n
+Business Economics\n
+Business Law\n
+Cost and Management Accounting\n
+Investment and Financial Markets\n
+International Business"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entry Requirements"
+                android:textSize="25sp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Age: 17 years old\n
+\nAcademic Qualification: Completed High School or Year 12\n
+
+\nEnglish Proficiency: Any of the following or equivalent:\n
+
+IELTS 6.0 or TOEFL (Paper) ≥ 547 or TOEFL (Computer) ≥ 210 or TOEFL (Internet) ≥ 78 or TOEIC ≥ 780
+Other qualifications equivalent to High School or Year 12 where the medium of instruction is English
+Attend and pass Certificate in English up to Academic English level
+"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course Fees"
+                android:textSize="25sp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Course Fee: $10,300 (excluding of GST)\n
+\nSingle / Bundled Programs\n
+
+Application Fees: $200\n
+International Student Administrative Fee: $650\n
+
+\nExisting / Local Transfer\n
+
+Application Fees: $100\n
+International Student Administrative Fee: $350\n
+
+\nFee Protection Scheme Fee: 0.75% of (Course Fee less grant + Medical Insurance + International Student Administrative Fee) OR $25 whichever is higher\n
+
+\nMedical Insurance Fee: $80 Per Course Per Year\n
+All fees subject to prevailing GST of 7%\n
+All fees indicated are in Singapore Dollars (SGD)"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

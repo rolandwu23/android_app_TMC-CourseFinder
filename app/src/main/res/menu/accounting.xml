@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+    <item android:title="Bachelor of Science (Honours) in Accounting and Finance"
+        android:id="@+id/accounting_bsc"/>
+    <item
+        android:title="Professional Diploma in Accounting and Finance"
+        android:id="@+id/accounting_diploma"/>
+    </group>
+</menu>

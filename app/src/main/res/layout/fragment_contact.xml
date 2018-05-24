@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.assign_4.Contact"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+     android:gravity="center"
+      >
+
+      <Button
+
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="  Call Us: +65 66909599"
+          android:textSize="15sp"
+          android:textStyle="bold"
+          android:drawableLeft="@drawable/ic_call_black_24px"
+          android:id="@+id/btn_call"
+          />
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="  Email Us: info@tmc.edu.sg"
+          android:textSize="15sp"
+          android:textStyle="bold"
+          android:drawableLeft="@drawable/ic_email_black_24px"
+          android:layout_marginTop="10dp"
+          android:id="@+id/btn_email"
+          />
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="  Visit Us: wwww.tmc.edu.sg"
+          android:textStyle="bold"
+          android:textSize="15sp"
+          android:drawableLeft="@drawable/ic_web_black_24px"
+          android:layout_marginTop="10dp"
+          android:id="@+id/btn_website"
+          />
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="  Locate Us: 250,Middle Road,Singapore"
+          android:drawableLeft="@drawable/ic_my_location_black_24px"
+          android:textSize="15sp"
+          android:textStyle="bold"
+          android:id="@+id/btn_location"
+
+          android:layout_marginTop="10dp"
+          />
+
+  </LinearLayout>
+
+</FrameLayout>

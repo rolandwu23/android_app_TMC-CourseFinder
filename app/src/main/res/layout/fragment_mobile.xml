@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.assign_4.Mobile">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Development of Mobile Applications"
+                android:textSize="25sp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course Modules"
+                android:textSize="25sp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Introduction to XML\n
+Introduction to Android\n
+Activities, Fragments and Intents\n
+Layouts and Designs of Android User Interface (UI)\n
+Displaying Pictures and Menus With Views\n
+Data Persistence\n
+Messaging and Location-Based Services"
+                android:textSize="18sp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course Fees"
+                android:textSize="25sp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Application Fee: $50\n
+
+
+
+\nCourse Fee: $495  (exclusive of GST)\n
+
+Funding Available:  Company-Sponsored via SkillsFuture Singapore- $80\n
+SkillsFuture Credits* (for Singapore citizens) may be utilized for non-company sponsored applicants.\n
+
+
+All fees indicated are in Singapore Dollars (SGD)
+
+"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

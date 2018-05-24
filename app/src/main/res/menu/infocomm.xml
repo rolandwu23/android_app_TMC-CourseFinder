@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+    <item android:title="Higher Diploma in Infocomm Technology"
+        android:id="@+id/IT_higher"/>
+    <item
+        android:title="Bachelor of Science (Honours) Computing (Top up)"
+        android:id="@+id/IT_bsc"/>
+    </group>
+</menu>

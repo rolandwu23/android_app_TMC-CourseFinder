@@ -1,0 +1,115 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.assign_4.IT_higher">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Higher Diploma in Infocomm Technology"
+                android:textSize="25sp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course Modules"
+                android:textSize="25sp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Project Management\n
+Database Systems and Applications\n
+Application Programming with Java\n
+Information Systems Analysis and Design\n
+Web Programming and Applications\n
+Network Operating Systems\n
+.Net Programming with C#\n
+Development of Mobile Applications\n
+Object Oriented Programming with C++"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entry Requirements"
+                android:textSize="25sp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Age: 17 years old\n
+\nAcademic Qualification: Completed High School or Year 12\n
+
+\nEnglish Proficiency:Any of the following or equivalent:\n
+
+IELTS 6.0 or TOEFL (Paper) ≥ 547 or TOEFL (Computer) ≥ 210 or TOEFL (Internet) ≥ 78 or TOEIC ≥ 780
+Other qualifications equivalent to High School or Year 12 where the medium of instruction is English
+Attend and pass Certificate in English up to Academic English level\n
+Mature Candidates: N.A.
+"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course Fees"
+                android:textSize="25sp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Course Fees: $15,250\n
+\nSingle / Bundled Programs\n
+
+Application Fees: $200\n
+International Student Administrative Fee: $650\n
+
+\nExisting / Local Transfer\n
+
+Application Fees: $100\n
+International Student Administrative Fee: $350\n
+
+\nFee Protection Scheme Fee\n
+
+0.75% of (Course Fee less grant + Medical Insurance + International Student Administrative Fee) OR $25 whichever is higher\n
+
+\nMedical Insurance Fee\n
+
+$80 Per Course Per Year\n
+All fees subject to prevailing GST of 7%\n
+All fees indicated are in Singapore Dollars (SGD)"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

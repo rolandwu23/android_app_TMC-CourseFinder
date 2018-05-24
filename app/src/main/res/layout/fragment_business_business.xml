@@ -1,0 +1,137 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.assign_4.Business_business">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bachelor of Arts (Honours) Business and Management"
+                android:textSize="25sp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course Modules"
+                android:textSize="25sp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business Communication\n
+Principles of Marketing Management\n
+Strategic Management\n
+Accounting and Finance for Managers\n
+Strategic Human Resource Management\n
+Business Project"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entry Requirements"
+                android:textSize="25sp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Age: 17 years old\n
+\nAcademic Qualification: Obtained at least a Pass in any one of the following:\n
+
+\nTMC Higher Diploma in Business\n
+TMC Higher Diploma in Business (Marketing specialisation)\n
+TMC Higher Diploma in Business (Human Resources Management specialisation)\n
+TMC Higher Diploma in Business (International Business specialisation)\n
+TMC Higher Diploma in Business (Accounting specialisation)\n
+TMC Higher Diploma in Business (Logistics specialisation)\n
+TMC Higher Diploma in Business Studies\n
+TMC Higher Diploma in Business Studies with Marketing\n
+TMC Higher Diploma in Business Studies with Human Resource Management\n
+TMC Higher Diploma in Business Studies with International Business\n
+TMC Higher Diploma in Business Studies with Accounting\n
+TMC Higher Diploma in Business Studies with Logistics\n
+SQA HND Business\n
+Relevant Polytechnic Diploma*\n
+Advanced / Higher Diploma in ( Business / Management / Accounting / Marketing ) from Private Education Institutions*
+* Relevant Polytechnic Diploma and other Advanced Diploma holders will have to obtain a TMC Higher Diploma prior to the Top Up degree. Credits may be given for the modules completed previously and the number of modules required to undertake may be 4 modules or more.\n
+\nEnglish Qualification: Any of the following or equivalent:\n
+
+\nAt least a C6 at GCE O English\n
+Completed a Higher / Advanced Diploma where medium of instruction is English\n
+Pass an English online test and an interview with the Dean / HOD / designate\n
+IELTS 6.0\n
+TOEFL ( Paper ) ≥ 547\n
+TOEFL ( Computer ) ≥ 210\n
+TOEFL ( Internet ) ≥ 78\n
+TOEIC ≥ 780\n
+Attend and pass Certificate in English up to Academic English level
+"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course Fees"
+                android:textSize="25sp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Course Fees: $19,060\n
+\nAdministrative Fee\n
+(New Student / TMC’s Existing / Local Transfer Student)\n
+
+\nAll the course fees stated below are inclusive of course materials, examination fee and lab fee unless stated otherwise. Repeat fees and other administrative fees are listed in the Miscellaneous Fee List.\n
+
+\nSingle / Bundled Programs\n
+
+Application Fees: $200\n
+International Student Administrative Fee: $650\n
+
+\nExisting / Local Transfer\n
+
+Application Fees: $100\n
+International Student Administrative Fee: $350\n
+
+\nFee Protection Scheme Fee\n
+
+0.75% of (Course Fee less grant + Medical Insurance + International Student Administrative Fee) OR $25 whichever is higher\n
+\nMedical Insurance Fee\n
+
+$80 Per Course Per Year\n
+All fees subject to prevailing GST of 7%\n
+All fees indicated are in Singapore Dollars (SGD)"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
